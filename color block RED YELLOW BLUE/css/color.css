@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+}
+
+.redd {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+
+}
+
+.yelloww {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    /* position: absolute; */
+
+}
+
+.bluee {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    /* position: absolute; */
+    position: absolute;
+    left: 100px;
+
+}
