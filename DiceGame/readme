@@ -1,1 +1,13 @@
-readme
+What is the Dice roll game?
+
+The web application contains 2 dices drawn on the screen for player 1 and player 2 respectively. The game is whenever we refresh the page the two dices will show the number from 1-6 randomly. Whoever gets the greater number wins the game.
+
+
+
+How this functionality is implemented?
+
+The project files contain an image folder that includes 6 images namely [Dice1, Dice2, Dice3, Dice4, Dice5, Dice6]. 
+
+using javascript I managed to store a random number between 1-6 and changed the attributes of img tag using #javascript  code as follows:-
+
+document.querySelectorAll("img")[0].setAttribute("src", "images/dice" + randomNumber1 + ".png");
